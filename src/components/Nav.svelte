@@ -78,5 +78,13 @@
         Todo List
       </a>
     </li>
+    <li>
+      <a
+        rel="prefetch"
+        aria-current={segment === 'movies' ? 'page' : undefined}
+        href="movies">
+        Movies
+      </a>
+    </li>
   </ul>
 </nav>
